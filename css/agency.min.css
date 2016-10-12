@@ -204,6 +204,14 @@ header {
 	font-family: ;
 }
 
+/*.videosource {
+	width: 1280px;
+	height: 720px;
+	border-color: WHITE;
+	border-width: 2px;
+
+}*/
+
 header .intro-text {
 	padding-top:100px;
 	padding-bottom:50px
