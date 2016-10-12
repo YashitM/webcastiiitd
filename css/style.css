@@ -256,7 +256,7 @@ header .intro-text .intro-heading {
 	}
 }
 
-#portfolio .portfolio-item .portfolio-caption p,section h3.section-subheading {
+#prevevent .prevevent-item .prevevent-caption p,section h3.section-subheading {
 	font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-style:italic
 }
@@ -304,19 +304,19 @@ section h3.section-subheading-2 {
 	text-transform:none
 }
 
-#portfolio .portfolio-item{
+#prevevent .prevevent-item{
 	margin:0 0 15px;
 	right:0
 }
 
-#portfolio .portfolio-item .portfolio-link{
+#prevevent .prevevent-item .prevevent-link{
 	display:block;
 	position:relative;
 	max-width:400px;
 	margin:0 auto
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover{
+#prevevent .prevevent-item .prevevent-link .prevevent-hover{
 	background:rgba(254,209,54,.9);
 	position:absolute;width:100%;
 	height:100%;
@@ -326,11 +326,11 @@ section h3.section-subheading-2 {
 	-moz-transition:all ease .5s
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover{
+#prevevent .prevevent-item .prevevent-link .prevevent-hover:hover{
 	opacity:1
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content{
+#prevevent .prevevent-item .prevevent-link .prevevent-hover .prevevent-hover-content{
 	position:absolute;width:100%;
 	height:20px;
 	font-size:20px;
@@ -340,15 +340,15 @@ section h3.section-subheading-2 {
 	color:#fff
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i{
+#prevevent .prevevent-item .prevevent-link .prevevent-hover .prevevent-hover-content i{
 	margin-top:-12px
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4{
+#prevevent .prevevent-item .prevevent-link .prevevent-hover .prevevent-hover-content h3,#prevevent .prevevent-item .prevevent-link .prevevent-hover .prevevent-hover-content h4{
 	margin:0
 }
 
-#portfolio .portfolio-item .portfolio-caption{
+#prevevent .prevevent-item .prevevent-caption{
 	max-width:400px;
 	margin:0 auto;
 	background-color:#fff;
@@ -356,12 +356,12 @@ section h3.section-subheading-2 {
 	padding:25px
 }
 
-#portfolio .portfolio-item .portfolio-caption h4{
+#prevevent .prevevent-item .prevevent-caption h4{
 	text-transform:none;
 	margin:0
 }
 
-#portfolio .portfolio-item .portfolio-caption p{
+#prevevent .prevevent-item .prevevent-caption p{
 	font-size:16px;
 	margin:0
 }
@@ -370,11 +370,11 @@ footer span.copyright,footer ul.quicklinks{
 	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif
 }
 
-#portfolio *{z-index:2}
+#prevevent *{z-index:2}
 
 @media (min-width:767px)
 {
-	#portfolio .portfolio-item{
+	#prevevent .prevevent-item{
 		margin:0 0 30px
 	}
 }
@@ -619,13 +619,13 @@ ul.social-buttons li a:active,ul.social-buttons li a:focus,ul.social-buttons li 
 	outline:0;
 }
 
-.portfolio-modal .modal-dialog{
+.prevevent-modal .modal-dialog{
 	margin:0;
 	height:100%;
 	width:auto
 }
 
-.portfolio-modal .modal-content{
+.prevevent-modal .modal-content{
 	border-radius:0;
 	background-clip:border-box;
 	-webkit-box-shadow:none;
@@ -636,32 +636,32 @@ ul.social-buttons li a:active,ul.social-buttons li a:focus,ul.social-buttons li 
 	text-align:center
 }
 
-.portfolio-modal .modal-content h2{
+.prevevent-modal .modal-content h2{
 	margin-bottom:15px;
 	font-size:3em
 }
 
-.portfolio-modal .modal-content p{
+.prevevent-modal .modal-content p{
 	margin-bottom:30px
 }
 
-.portfolio-modal .modal-content p.item-intro{
+.prevevent-modal .modal-content p.item-intro{
 	margin:20px 0 30px;
 	font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-style:italic;
 	font-size:16px
 }
 
-.portfolio-modal .modal-content ul.list-inline{
+.prevevent-modal .modal-content ul.list-inline{
 	margin-bottom:30px;
 	margin-top:0
 }
 
-.portfolio-modal .modal-content img{
+.prevevent-modal .modal-content img{
 	margin-bottom:30px
 }
 
-.portfolio-modal .close-modal{
+.prevevent-modal .close-modal{
 	position:absolute;
 	width:75px;
 	height:75px;
@@ -671,11 +671,11 @@ ul.social-buttons li a:active,ul.social-buttons li a:focus,ul.social-buttons li 
 	cursor:pointer
 }
 
-.portfolio-modal .close-modal:hover{
+.prevevent-modal .close-modal:hover{
 	opacity:.3
 }
 
-.portfolio-modal .close-modal .lr{
+.prevevent-modal .close-modal .lr{
 	height:75px;
 	width:1px;
 	margin-left:35px;
@@ -686,7 +686,7 @@ ul.social-buttons li a:active,ul.social-buttons li a:focus,ul.social-buttons li 
 	z-index:1051
 }
 
-.portfolio-modal .close-modal .lr .rl{
+.prevevent-modal .close-modal .lr .rl{
 	height:75px;
 	width:1px;
 	background-color:#222;
@@ -696,7 +696,7 @@ ul.social-buttons li a:active,ul.social-buttons li a:focus,ul.social-buttons li 
 	z-index:1052
 }
 
-.portfolio-modal .modal-backdrop{
+.prevevent-modal .modal-backdrop{
 	opacity:0;
 	display:none
 }
