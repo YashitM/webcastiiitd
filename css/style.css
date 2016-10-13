@@ -134,23 +134,25 @@ a.active,a:active,a:focus,a:hover {
 
 .navbar-custom .nav li a {
 	font-weight:400;
-	letter-spacing:1px
+	letter-spacing:1px;
+	transition: all 0.2s ease-in-out;
 }
 
 .navbar-custom .nav li a:focus,.navbar-custom .nav li a:hover {
-	color:#fed136;
-	outline:0
+	color:#727272;
+	outline:0;
+	transform: scale(1.08);
 }
 
 .navbar-custom .navbar-nav>.active>a {
 	border-radius:0;
 	color:#fff;
-	background-color:#fed136
+	background-color:#727272;
 }
 
 .navbar-custom .navbar-nav>.active>a:focus,.navbar-custom .navbar-nav>.active>a:hover {
 	color:#fff;
-	background-color:#fec503
+	background-color:#727272;
 }
 
 @media (min-width:768px)
