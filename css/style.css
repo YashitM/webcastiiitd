@@ -309,3 +309,7 @@ img::-moz-selection{
 	background:0 0
 }
 
+
+.special-container{
+	width: 80%;
+}
