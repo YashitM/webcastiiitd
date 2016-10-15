@@ -101,6 +101,10 @@ a.active,a:active,a:focus,a:hover {
 	background-color:#727272;
 }
 
+.nav-img-size {
+  	width: 33%;
+  	height: 33%;
+  }
 
 @media screen and (max-width: 768px) {
   .nav-img {
@@ -112,6 +116,7 @@ a.active,a:active,a:focus,a:hover {
   .nav-text {
   	visibility: visible;
   }
+  
 }
 @media (min-width: 768px)
 {
@@ -122,8 +127,9 @@ a.active,a:active,a:focus,a:hover {
 @media (min-width:768px)
 {
 	.navbar-custom {
-	    background-color: transparent;
-	    padding: 25px 0;
+	    /*background-color: transparent;*/
+	    background-color:#222222;
+	    padding: 17px 0;
 	    -webkit-transition: padding 0.3s;
 	    -moz-transition: padding 0.3s;
 	    transition: padding 0.3s;
@@ -156,9 +162,9 @@ section {
 	padding:100px 0
 }
 
-/*section#WatchEvent {
-	background-image: url(../img/lowSizeDark.jpg);
-}*/
+section#WatchEvent {
+	/*background-image: url(../img/lowSizeDark1.jpg);*/
+}
 
 section h2.section-heading {
 	font-size:40px;
@@ -387,61 +393,6 @@ img::-moz-selection{
 	}
 }
 
-/*@media (min-width: 1192px)
-{
-	section h2.section-heading {
-	font-size:40px;
-	margin-top:0;
-	margin-bottom:15px;
-
-}
-
-section h2.section-heading-2 {
-	font-size:40px;
-	margin-top:25px;
-	margin-left: -887px;
-}
-
-section h2.section-heading-3 {
-	font-size:40px;
-	margin-top:-60px;
-	margin-bottom:65px;
-
-}
-
-section h2.section-heading-4 {
-	font-size:30px;
-	margin-top:-60px;
-	margin-bottom:65px;
-	margin-left: 400px;
-	color: #222222;
-}
-
-section h3.section-subheading {
-	font-size:16px;
-	text-transform:none;
-	font-weight:400;
-	margin-bottom:45px;
-	margin-left: -1110px;
-}
-
-section h3.section-subheading-2 {
-	font-size:16px;
-	text-transform:none;
-	font-weight:400;
-	margin-top: -5px;
-	margin-bottom: -5px;
-	margin-left: -1060px;
-}
-
-section h3.section-subheading-3 {
-	font-size:16px;
-	text-transform:none;
-	font-weight:400;
-	margin-bottom:-5px;
-	margin-left: -1030px;
-}
-}*/
 
 
 
