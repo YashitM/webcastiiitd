@@ -146,6 +146,10 @@ section {
 	padding:100px 0
 }
 
+section#WatchEvent {
+	background-image: url(../img/lowSizeDark.jpg);
+}
+
 section h2.section-heading {
 	font-size:40px;
 	margin-top:0;
@@ -313,3 +317,14 @@ img::-moz-selection{
 .special-container{
 	width: 80%;
 }
+
+.login-btn {
+	margin-left: 320px;
+}
+
+.home-btn {
+	margin-left: 210px;
+}
+
+.frame-position {}
+
