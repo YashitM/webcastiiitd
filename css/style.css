@@ -347,7 +347,7 @@ img::-moz-selection{
 	visibility: hidden;
 }
 
-@media (min-width:1560px)
+@media (min-width:1320px)
 {
 	.item-position {
 		margin-left: -200px;	
@@ -391,9 +391,14 @@ img::-moz-selection{
 		margin-bottom:-5px;
 		margin-left: -1425px;
 	}
+
+
 }
 
-
+.eventdetails-right {
+	float:right;
+	margin-right: 384px;
+}
 
 
 
