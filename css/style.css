@@ -185,6 +185,13 @@ section h2.section-heading-3 {
 
 }
 
+section h2.section-heading-5 {
+	font-size:40px;
+	margin-top:-60px;
+	margin-bottom:65px;
+
+}
+
 section h2.section-heading-4 {
 	font-size:30px;
 	margin-top:-60px;
@@ -343,16 +350,20 @@ img::-moz-selection{
 	width: 80%;
 }
 
+.special-container-2 {
+	width: 70%
+}
+
 .right-content {
 	visibility: hidden;
 }
 
 @media (min-width:1320px)
 {
-	.item-position {
+	/*.item-position {
 		margin-left: -200px;	
 		margin-right: 200px;
-	}
+	}*/
 
 	.right-content {
 		visibility: visible;
@@ -395,10 +406,19 @@ img::-moz-selection{
 
 }
 
+@media (max-width: 1198px)
+{	
+	.hide-this {
+		visibility: hidden;
+	}
+}
+
+.container-width {
+	width: 90%;
+}
+
 .eventdetails-right {
 	float:right;
 	margin-right: 384px;
 }
-
-
 
